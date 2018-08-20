@@ -1,2 +1,31 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="main-container">
+  <div class="header">
+    <h2>Kai Künne</h2>
+  </div>
+
+  <div class="content">
+    <div class="info">
+      <div class="navbar">
+        <p>About me</p>
+        <p>CV</p>
+        <p>Consulting</p>
+      </div>
+      <div class="stuff">
+          <%= render 'shared/about' %>
+          <%= render 'shared/cv' %>
+          <%= render 'shared/consulting' %>
+      </div>
+    </div>
+    <div class="ad-hoc">
+      <div class="navbar">
+        <p>Twitter</p>
+        <p>Blog</p>
+      </div>
+      <div class="stuff">
+        <%= render 'shared/twitter' %>
+        <%= render 'shared/blog' %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

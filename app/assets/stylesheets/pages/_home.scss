@@ -1,1 +1,127 @@
-// Specific CSS for your home-page
+body {
+  background-color: white;
+  h1 { font-size: 1.5em};
+  h2 { font-size: 1.2em};
+  h3 { font-size: 1em};
+  h4 { font-size: 0.8em};
+  p { font-size: 0.8em};
+  li { font-size: 0.8em}
+}
+
+.main-container {
+  // border: 5px solid red; // debug
+
+  min-height: 100vh;
+  min-width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  background: white;
+}
+
+.header {
+  // border-bottom: 1px solid black;
+
+  flex: 0 0 auto;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 80vw;
+
+  h2 {
+    margin: 0px;
+    padding: 0px 0px 5px 0px;
+  }
+}
+
+.content {
+  // border: 2px solid black; // debug
+
+
+  flex: 0 0 auto;
+
+  width: 80vw;
+  min-height: 75vh;
+
+
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+
+  .info {
+    // border: 1px solid green; // debug
+
+    flex: 0 0 auto;
+    width: 50vw;
+    min-height: inherit;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .stuff {
+      padding: 10px 20px;
+    }
+
+  }
+
+  .ad-hoc {
+    // border: 1px solid blue; // debug
+
+    flex: 0 0 auto;
+    width: 25vw;
+    min-height: inherit;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center
+
+  }
+}
+
+.navbar {
+
+  // border: 1px solid gray; // debug
+
+  flex: 0 0 auto;
+
+  min-height: 8vh;
+  width: inherit;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 0px;
+
+  p {
+    flex: 0 0 auto;
+    font-size: 1em;
+    margin: 0;
+  }
+
+}
+
+.stuff {
+
+  // border: 1px solid gray; // debug
+
+  flex: 0 0 auto;
+
+  min-height: 65vh;
+  width: inherit;
+
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0px 0px 10px 2px rgba(179,179,179,0.59);
+
+}
+
+
