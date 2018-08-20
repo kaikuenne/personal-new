@@ -1,3 +1,7 @@
 .twitter {
   height: 65vh;
 }
+
+iframe.twitter-timeline {
+    min-height: 65px !important;
+}

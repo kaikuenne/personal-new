@@ -1,6 +1,33 @@
-    .avatar-bordered {
-      height: 10vh;
-      border-radius: 50%;
-      box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-      border: white 1px solid;
+    .about {
+
+      h1 {
+        display: inline;
+        margin: 0px;
+      };
+
+      li, h1, h2, h3, h4, p {
+        text-align: justify;
+      };
+
+      p {
+        font-size: 1.1em;
+      }
+
+      .tl-dr{
+        a {
+          font-size: 1.1em;
+          color: #333333;
+        }
+        li > p {
+          display: inline;
+        }
+      }
+
+      #hide-list {
+        list-style: none;
+      }
+
+      #focus-headline {
+
+      }
     }
