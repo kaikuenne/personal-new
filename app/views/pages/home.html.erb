@@ -1,27 +1,43 @@
 <div class="main-container">
-  <div class="header">
-    <img src='https://kitt.lewagon.com/placeholder/users/kaikuenne' class="avatar-bordered"/>
-    <h1>Kai Künne</h1>
-  </div>
-
+  <h1 id="name">Kai Künne</h1>
   <div class="content">
-    <div class="info">
-      <div class="navbar">
-        <p>About me</p>
-        <p>CV</p>
-        <p>Consulting</p>
+    <div class="text">
+      <div class="topline">
+        <div class="short">
+          <%= render 'shared/short' %>
+        </div>
+        <div class="social">
+          <i class="fas fa-envelope"></i>
+        </div>
+        <div class="social">
+          <i class="fas fa-phone-square"></i>
+        </div>
+        <div class="social">
+          <i class="fab fa-linkedin"></i>
+        </div>
       </div>
-      <div class="stuff">
-          <%= render 'shared/about' %>
-          <%= render 'shared/cv' %>
-          <%= render 'shared/consulting' %>
+      <div class="short-bio">
+        <img src='https://kitt.lewagon.com/placeholder/users/kaikuenne' class="avatar-bordered"/>
+        <%= render 'shared/short-text' %>
+      </div>
+      <div class="info">
+<!--        <div class="navbar">
+            <p>More About Me</p>
+            <p>CV</p>
+            <p>Consulting</p>
+        </div> -->
+        <div class="stuff">
+            <%= render 'shared/about' %>
+            <%= render 'shared/cv' %>
+            <%= render 'shared/consulting' %>
+        </div>
       </div>
     </div>
     <div class="ad-hoc">
-      <div class="navbar">
+<!--       <div class="navbar">
         <p>Twitter</p>
         <p>Blog</p>
-      </div>
+      </div> -->
       <div class="stuff">
         <%= render 'shared/twitter' %>
         <%= render 'shared/blog' %>

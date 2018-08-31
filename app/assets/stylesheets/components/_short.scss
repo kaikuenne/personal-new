@@ -1,0 +1,68 @@
+.head {
+
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  padding: 10px 20px;
+
+  h1 {
+    display: inline;
+    margin: 0px;
+  };
+
+  li, h1, h2, h3, h4, p {
+    text-align: justify;
+  };
+
+  p {
+    font-size: 1.1em;
+  }
+
+}
+
+.head-text {
+  margin: 0px 0px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: flex-start;
+}
+
+
+#focus-headline {
+  margin: 0px 0px 0px 0px;
+}
+
+.short-bio {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+
+.tl-dr{
+
+  min-height: 18vh;
+  margin: 0em 0em 0em 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: flex-start;
+
+  a {
+    font-size: 1.1em;
+    color: #333333;
+  }
+  div > li > p {
+    display: inline;
+    font-size: 1em;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  #whatido {
+    margin: 0em 0em 1em 0em;
+  }
+}

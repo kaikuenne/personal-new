@@ -1,7 +1,12 @@
 .twitter {
-  height: 65vh;
+  height: 75vh;
 }
 
 iframe.twitter-timeline {
-    min-height: 65px !important;
+    min-height: 80px !important;
 }
+
+body > div > div.timeline-Header.timeline-InformationCircle-widgetParent {
+  display: none !important;
+}
+

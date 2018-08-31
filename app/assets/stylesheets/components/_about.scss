@@ -1,33 +1,20 @@
-    .about {
+.about {
 
-      h1 {
-        display: inline;
-        margin: 0px;
-      };
+  h1 {
+    display: inline;
+    margin: 0px;
+  };
 
-      li, h1, h2, h3, h4, p {
-        text-align: justify;
-      };
+  li, h1, h2, h3, h4, p {
+    text-align: justify;
+  };
 
-      p {
-        font-size: 1.1em;
-      }
+  #hide-list {
+    list-style: none;
+  }
 
-      .tl-dr{
-        a {
-          font-size: 1.1em;
-          color: #333333;
-        }
-        li > p {
-          display: inline;
-        }
-      }
+  #focus-headline {
+    margin: 0px 0px 10px 0px;
 
-      #hide-list {
-        list-style: none;
-      }
-
-      #focus-headline {
-
-      }
-    }
+  }
+}
