@@ -1,7 +1,7 @@
 .head {
 
   display: flex;
-  justify-content: stretch;
+  justify-content: space-around;
   align-items: center;
   padding: 10px 20px;
 
@@ -42,17 +42,12 @@
 
 .tl-dr{
 
-  min-height: 18vh;
   margin: 0em 0em 0em 1em;
   display: flex;
   flex-direction: column;
-  justify-content: stretch;
+  justify-content: center;
   align-items: flex-start;
 
-  a {
-    font-size: 1.1em;
-    color: #333333;
-  }
   div > li > p {
     display: inline;
     font-size: 1em;

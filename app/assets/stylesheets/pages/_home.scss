@@ -11,7 +11,7 @@ body {
 .main-container {
   // border: 5px solid red; // debug
 
-  height: 100vh;
+  height: 95vh;
   width: 100vw;
 
   display: flex;
@@ -23,7 +23,7 @@ body {
 }
 
 #name {
-  margin: 1em 0em 3em 0em;
+  margin: 1em 0em 1em 0em;
 }
 
 .header {
@@ -55,43 +55,30 @@ body {
   flex: 0 0 auto;
 
   width: 80vw;
-  min-height: inherit;
 
-  @media screen and (min-width: 800px) {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
 
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
 
-  }
-
-  .topline, .short-bio, .info {
+  .topline, .short-bio {
     // border: 1px solid green; // debug
 
     @media screen and (min-width: 800px) {
-      width: 50vw;
+      // width: 50vw;
     }
 
     @media screen and (max-width: 800px) {
-      width: 80vw;
+      // width: 80vw;
     }
 
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
+  }
 
-    .stuff {
-      // padding: 10px 20px;
-      max-height: inherit;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-
-      div {
-        flex: 0 0 auto;
-      }
-    }
-
+  .topline, .short-bio {
+    justify-content: flex-start;
   }
 
   .ad-hoc {
@@ -152,7 +139,7 @@ body {
 
 }
 
-.topline, .short-bio, .info {
+.topline, .short-bio {
 
   flex: 0 0 auto;
 
@@ -160,11 +147,16 @@ body {
 
 }
 
-.short, .short-bio, .info, .social, .ad-hoc  {
+.short-bio, .socials, .ad-hoc  {
   background: #fff;
   border-radius: 2px;
   // box-shadow: 0px 0px 10px 2px rgba(179,179,179,0.59);
   box-shadow: 0px 0px 10px 2px rgba(179,179,179,0.2);
+
+}
+
+.short {
+  width: 100%;
 }
 
 .avatar-bordered {
@@ -185,21 +177,16 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-start;
-  height: 75vh;
+  align-items: stretch;
 }
 
-.info {
-  // min-height: 40vh;
-
-  padding: 1em;
-}
-
-.topline {
+.topline, .socials {
 
   display: flex;
-  justify-content: space-between !important;
+  justify-content: space-around !important;
   align-items: center;
+
+  min-width: 30vw;
 
   .social, .short {
     flex: 0 0 auto;
@@ -218,13 +205,41 @@ body {
 
       transform: translate(-50%, -50%);
 
-      font-size: 2vw;
+      font-size: 200%;
     }
   }
 }
+
 
 .topline, .short-bio, .info {
   max-width: 45vw !important;
 }
 
+.socials {
+  margin: 3vh 0vw 6vh 0vw;
+}
 
+.stuff {
+    width: 100%;
+    max-height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    box-shadow: 0px 0px 10px 2px rgba(179,179,179,0.2);
+
+    div {
+      flex: 0 0 auto;
+    }
+  }
+
+a {
+  width: 100%;
+  height: 100%;
+}
+
+.topline {
+  align-self: center;
+  margin-top: 5vh;
+}

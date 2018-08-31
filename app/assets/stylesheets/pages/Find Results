@@ -1,0 +1,166 @@
+Searching 140 files for "i" (whole word)
+
+/Users/kaikuenne/code/kaikuenne/personal-new/app/assets/stylesheets/pages/_home.scss:
+  207      position: relative;
+  208
+  209:     i {
+  210        position: absolute;
+  211        top: 50%;  /* position the top  edge of the element at the middle of the parent */
+
+/Users/kaikuenne/code/kaikuenne/personal-new/app/views/pages/home.html.erb:
+    9      <div class="socials">
+   10        <div class="social">
+   11:         <a href="mailto:mail@kaikuenne.com" target="_blank" title="Send me an Email"><i class="fas fa-envelope"></i></a>
+   12        </div>
+   13        <div class="social">
+   14:         <a href="tel:+4917667520717" target="_blank" title="Give me a call"><i class="fas fa-phone-square"></i></a>
+   15        </div>
+   16        <div class="social">
+   17:         <a href="https://www.linkedin.com/in/kaikuenne/" target="_blank" title="Find me on LinkedIn"><i class="fab fa-linkedin"></i></a>
+   18        </div>
+   19        <div class="social">
+   20:         <a href="https://www.facebook.com/kaikuenne" target="_blank" title="Find me on Facebook"><i class="fab fa-facebook"></i></a>
+   21        </div>
+   22      </div>
+
+/Users/kaikuenne/code/kaikuenne/personal-new/app/views/shared/_about.html.erb:
+    3      <div class="more-info">
+    4        <li id="hide-list"><p>Technology fascinates me. Even more so: its power to shape the strategies of modern businesses. <p/></li>
+    5:       <li id="hide-list"><p>So, I have tried to build on this interest: By undergoing business education from WHU, Bocconi and now LSE. By (successfully) bootstrapping a digital company. By working in a team in various functions in tech, strategy consulting and VC. And finally, by involving myself on the product side and learning how to code (at a leading global programming bootcamp).</p></li>
+    6:       <li id="hide-list"><p>I am searching for another great chance to learn and build after finishing university. If you like my profile and offer an opportunity to make an impactful contribution in a strategic field, do contact me via the links below. <p/></li>
+    7      </div>
+    8    </div>
+
+/Users/kaikuenne/code/kaikuenne/personal-new/app/views/shared/_consulting.html.erb:
+    1  <div class="consulting">
+    2:   <h4>I can help you:</h4>
+    3    <ul>
+    4      <li>develop and evaluate early-stage strategy.</li>
+
+/Users/kaikuenne/code/kaikuenne/personal-new/app/views/shared/_cv.html.erb:
+    8    </ul>
+    9
+   10:   <h4>Other projects I worked on.</h4>
+   11    <ul>
+   12      <li> Cofounder @ Juvigo Gmbh </li>
+
+/Users/kaikuenne/code/kaikuenne/personal-new/app/views/shared/_navbar.html.erb:
+   22              <li>
+   23                <%= link_to "#" do %>
+   24:                 <i class="fa fa-user"></i> <%= t(".profile", default: "Profile") %>
+   25                <% end %>
+   26              </li>
+   27              <li>
+   28                <%= link_to "#" do %>
+   29:                 <i class="fa fa-cog"></i>  <%= t(".settings", default: "Settings") %>
+   30                <% end %>
+   31              </li>
+   32              <li>
+   33                <%= link_to destroy_user_session_path, method: :delete do %>
+   34:                 <i class="fa fa-sign-out"></i>  <%= t(".sign_out", default: "Log out") %>
+   35                <% end %>
+   36              </li>
+   ..
+   47    <div class="navbar-wagon-item hidden-md hidden-lg">
+   48      <div class="dropdown">
+   49:       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+   50        <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+   51          <li><a href="#">Some mobile link</a></li>
+
+/Users/kaikuenne/code/kaikuenne/personal-new/app/views/shared/_short-text.html.erb:
+    1  <div class="tl-dr">
+    2:   <!-- <h2 id="whatido">Hi, I am Kai and this is what I do.</h2> -->
+    3    <div class="bio-bullets">
+    4      <li><p>Currently studying MSc Management & Strategy at LSE</p></li>
+
+/Users/kaikuenne/code/kaikuenne/personal-new/config/initializers/inflections.rb:
+    5  # locales as you wish. All of these examples are active by default:
+    6  # ActiveSupport::Inflector.inflections(:en) do |inflect|
+    7: #   inflect.plural /^(ox)$/i, '\1en'
+    8: #   inflect.singular /^(ox)en/i, '\1'
+    9  #   inflect.irregular 'person', 'people'
+   10  #   inflect.uncountable %w( fish sheep )
+
+25 matches across 8 files
+
+
+Searching 140 files for "box-shadow" (whole word)
+
+/Users/kaikuenne/code/kaikuenne/personal-new/app/assets/stylesheets/components/_navbar.scss:
+    1  /* Main navbar */
+    2  .navbar-wagon {
+    3:   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+    4    background: white;
+    5    transition: all 0.3s ease;
+    .
+   49  .navbar-wagon-dropdown-menu {
+   50    margin-top: 15px;
+   51:   box-shadow: 1px 1px 4px #E6E6E6;
+   52    border-color: #E6E6E6;
+   53  }
+
+/Users/kaikuenne/code/kaikuenne/personal-new/app/assets/stylesheets/pages/_home.scss:
+  151    background: #fff;
+  152    border-radius: 2px;
+  153:   // box-shadow: 0px 0px 10px 2px rgba(179,179,179,0.59);
+  154:   box-shadow: 0px 0px 10px 2px rgba(179,179,179,0.2);
+  155
+  156  }
+  ...
+  163    height: 18vh;
+  164    border-radius: 3%;
+  165:   box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  166    border: white 1px solid;
+  167  }
+  ...
+  236      width: 100%;
+  237
+  238:     box-shadow: 0px 0px 10px 1px rgba(179,179,179,0.1);
+  239
+  240      div {
+
+/Users/kaikuenne/code/kaikuenne/personal-new/public/404.html:
+   29      background-color: white;
+   30      padding: 7px 12% 0;
+   31:     box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+   32    }
+   33
+   ..
+   50      border-top-color: #DADADA;
+   51      color: #666;
+   52:     box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+   53    }
+   54    </style>
+
+/Users/kaikuenne/code/kaikuenne/personal-new/public/422.html:
+   29      background-color: white;
+   30      padding: 7px 12% 0;
+   31:     box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+   32    }
+   33
+   ..
+   50      border-top-color: #DADADA;
+   51      color: #666;
+   52:     box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+   53    }
+   54    </style>
+
+/Users/kaikuenne/code/kaikuenne/personal-new/public/500.html:
+   29      background-color: white;
+   30      padding: 7px 12% 0;
+   31:     box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+   32    }
+   33
+   ..
+   50      border-top-color: #DADADA;
+   51      color: #666;
+   52:     box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+   53    }
+   54    </style>
+
+12 matches across 5 files
+
+
+Searching 140 files for "!important" (whole word)
+
+0 matches

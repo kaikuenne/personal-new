@@ -1,48 +1,26 @@
 <div class="main-container">
-  <h1 id="name">Kai Künne</h1>
-  <div class="content">
-    <div class="text">
-      <div class="topline">
-        <div class="short">
-          <%= render 'shared/short' %>
-        </div>
-        <div class="social">
-          <i class="fas fa-envelope"></i>
-        </div>
-        <div class="social">
-          <i class="fas fa-phone-square"></i>
-        </div>
-        <div class="social">
-          <i class="fab fa-linkedin"></i>
-        </div>
-      </div>
-      <div class="short-bio">
-        <img src='https://kitt.lewagon.com/placeholder/users/kaikuenne' class="avatar-bordered"/>
-        <%= render 'shared/short-text' %>
-      </div>
-      <div class="info">
-<!--        <div class="navbar">
-            <p>More About Me</p>
-            <p>CV</p>
-            <p>Consulting</p>
-        </div> -->
-        <div class="stuff">
-            <%= render 'shared/about' %>
-            <%= render 'shared/cv' %>
-            <%= render 'shared/consulting' %>
-        </div>
+  <div class="text">
+    <div class="topline">
+      <div class="short">
+        <%= render 'shared/short' %>
       </div>
     </div>
-    <div class="ad-hoc">
-<!--       <div class="navbar">
-        <p>Twitter</p>
-        <p>Blog</p>
-      </div> -->
-      <div class="stuff">
-        <%= render 'shared/twitter' %>
-        <%= render 'shared/blog' %>
-        </div>
+    <div class="socials">
+      <div class="social">
+        <a href="mailto:mail@kaikuenne.com" target="_blank" title="Send me an Email"><i class="fas fa-envelope"></i></a>
       </div>
+      <div class="social">
+        <a href="tel:+4917667520717" target="_blank" title="Give me a call"><i class="fas fa-phone-square"></i></a>
+      </div>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/kaikuenne/" target="_blank" title="Find me on LinkedIn"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <div class="social">
+        <a href="https://www.facebook.com/kaikuenne" target="_blank" title="Find me on Facebook"><i class="fab fa-facebook"></i></a>
+      </div>
+    </div>
+    <div class="stuff">
+      <%= render 'shared/twitter' %>
     </div>
   </div>
 </div>
