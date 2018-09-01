@@ -15,7 +15,6 @@ gem 'font-awesome-sass', '~> 5.0.9'
 gem "passenger"
 gem 'sass-rails'
 gem 'simple_form'
-gem "sqlite3"
 gem 'uglifier'
 gem 'webpacker'
 
